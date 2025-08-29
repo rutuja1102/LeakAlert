@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LeakAlert</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Nav bar -->
+  <nav class="navbar">
+    🚰 LeakAlert – Report Water Leaks
+    <button id="toggleDark" class="dark-btn">🌙 Dark Mode</button>
+  </nav>
+
+  <!-- Form Box -->
+  <div class="form-container">
+    <form id="leakForm">
+      <h2>Report a Leak</h2>
+      <input type="text" id="location" placeholder="Enter location" required />
+      <textarea id="description" placeholder="Enter description" required></textarea>
+      
+      <!-- New Category Dropdown -->
+      <select id="category" required>
+        <option value="" disabled selected>Select Leak Type</option>
+        <option value="Pipe Burst">💧 Pipe Burst</option>
+        <option value="Tap Leak">🚿 Tap Leak</option>
+        <option value="Drainage Overflow">🌊 Drainage Overflow</option>
+      </select>
+
+      <input type="file" id="image" accept="image/*" capture="camera" />
+      <button type="submit">Submit Report</button>
+      <button type="button" id="useLocation">📍 Use My Location</button>
+      <p id="message" class="success-message"></p>
+    </form>
+  </div>
+
+  <!-- Map -->
+  <div id="map"></div>
+
+  <!-- Analytics -->
+  <div class="analytics">
+    <p><b>Total Reports:</b> <span id="totalReports">0</span></p>
+    <p><b>Today’s Reports:</b> <span id="todayReports">0</span></p>
+    <canvas id="categoryChart"></canvas>
+  </div>
+
+  <!-- Reports List -->
+  <div class="reports-container">
+    <h2>Submitted Reports</h2>
+    <ul id="reports"></ul>
+    <button id="clearReports">Clear All Reports</button>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
