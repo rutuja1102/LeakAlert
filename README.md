@@ -54,20 +54,22 @@ Most leaks are reported too late because there is *no simple, community-driven t
 ---
 
 ## 📽 Demo   
-🎥 *Demo Video*: [Watch Here](#TODO_VIDEO_LINK)  
+🎥 *Demo Video*: [Watch Here](assets/demo.mp4)  
 
 ---
 
 ## 📸 Screenshots  
 
-| Leak Report Form | Leak Map View | Report List |
-|------------------|---------------|-------------|
-| ![Form](#TODO_FORM_IMAGE) | ![Map](#TODO_MAP_IMAGE) | ![List](#TODO_LIST_IMAGE) |
+ | 
+| ![Water leak reporting form displayed on a laptop screen. The form includes fields for location, description, leak type selection, file upload, and buttons labeled Submit Report and Use My Location. The interface uses a dark mode theme with a blue header titled LeakAlert – Report Water Leaks. The wider environment is a desktop with a visible taskbar and weather widget showing Rainy days ahead 23°C. The emotional tone is practical and community-focused, encouraging users to report leaks.](screenshot1.jpg) 
+| ![Interactive map interface for visualizing reported water leaks. The map uses OpenStreetMap and displays markers indicating leak locations. The interface is clean and user-friendly, supporting community engagement in water conservation.](screenshot2.jpg) 
+| ![List view of reported water leaks showing details such as location, description, and status. The layout is organized for easy tracking and management of reports, supporting efficient communication between residents and authorities.](screenshot3.jpg) 
+| ![Additional screenshot showing another aspect of the LeakAlert app, contributing to the overall user experience of reporting and managing water leaks in a community setting.](screenshot4.jpg) |
 
 ---
 
 ## 👥 Team / Contributors  
-- [Rutuja Jadhav](#TODO_GITHUB_LINK)  
+- [Rutuja Jadhav](https://github.com/rutuja1102/LeakAlert) 
 
 ---
 
@@ -78,3 +80,5 @@ If communities can report leaks in seconds, we can save millions of liters every
 Small leaks today won’t become big problems tomorrow."*  
 
 ---
+
+[def]: http://github.com/rutuja1102/LeakAlert# LeakAlert
