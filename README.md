@@ -1,6 +1,6 @@
 # 🚰 LeakAlert – Community Water Leak Reporting App  
 
-banner(Banner - LeakAlert Community Water Reporting.png)  
+![LeakAlert Banner](assets/banner.png)  
 
 ---
 
@@ -53,10 +53,10 @@ Most leaks are reported too late because there is *no simple, community-driven t
 
 ---
 ## 📸 Screenshots  
-(screenshot1.jpg) 
-(screenshot2.jpg) 
-(screenshot3.jpg) 
-(screenshot4.jpg) |
+[form](assets/screenshot1.jpg) 
+[map](assets/screenshot2.jpg) 
+[donut grap](assets/screenshot3.jpg) 
+[list of leak](/assets/screenshot4.jpg) |
 
 ---
 
