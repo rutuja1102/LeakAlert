@@ -52,15 +52,7 @@ Most leaks are reported too late because there is *no simple, community-driven t
 - 🌐 Multilingual support (English, Hindi, Marathi,and more.).  
 
 ---
-
-## 📽 Demo   
-🎥 *Demo Video*: [Watch Here](assets/demo.mp4)  
-
----
-
 ## 📸 Screenshots  
-
-  
 (screenshot1.jpg) 
 (screenshot2.jpg) 
 (screenshot3.jpg) 
