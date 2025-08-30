@@ -1,6 +1,6 @@
 # 🚰 LeakAlert – Community Water Leak Reporting App  
 
-![LeakAlert Banner](assets/Banner%20-%20LeakAlert%20Community%20Water%20Reporting.png)  
+banner(Banner - LeakAlert Community Water Reporting.png)  
 
 ---
 
